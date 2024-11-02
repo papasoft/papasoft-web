@@ -23,6 +23,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Rick Tuttle', slug: 'papasoft/about-rick-tuttle'},
 						{ label: 'Mentoring', slug: 'papasoft/mentoring'},
+						{ label: 'Contact Me', slug: 'papasoft/contact'},
 					],
 				},
 				{
