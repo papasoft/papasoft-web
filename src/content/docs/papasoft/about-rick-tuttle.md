@@ -5,7 +5,7 @@ description: Rick Tuttle - Software Engineer
 
 ## Super Powers
 
-- Explain it so you can understand it.
+- Explain it so you can understand it
 - Communicate with any size group
 - Get your business
 - Whow professional courtesy and respect
