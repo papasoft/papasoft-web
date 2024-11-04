@@ -165,13 +165,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"papasoft/about-rick-tuttle.md": {
-	id: "papasoft/about-rick-tuttle.md";
-  slug: "papasoft/about-rick-tuttle";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 "papasoft/contact.md": {
 	id: "papasoft/contact.md";
   slug: "papasoft/contact";
@@ -186,6 +179,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"papasoft/rick-tuttle.mdx": {
+	id: "papasoft/rick-tuttle.mdx";
+  slug: "papasoft/rick-tuttle";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "resources/intro.md": {
 	id: "resources/intro.md";
   slug: "resources/intro";
