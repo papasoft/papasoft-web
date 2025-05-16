@@ -12,11 +12,11 @@ export default defineConfig({
 				dark: './src/assets/papasoft-logo-dark.svg',
 				replacesTitle: true,
 			  },
-			social: {
-				github: 'https://github.com/papasoft',
-				linkedin: 'https://www.linkedin.com/in/ricktuttledev/',
-				instagram: 'https://www.instagram.com/papasoft/'
-			},
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/papasoft' },
+				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/ricktuttledev/'},
+				{ icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/papasoft/'},
+			],
 			sidebar: [
 				{
 					label: 'Papasoft',
@@ -27,15 +27,11 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Career Guide',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Intro', slug: 'career/intro' },
-					],
-				},
-				{
 					label: 'Resources',
-					autogenerate: { directory: 'resources' },
+					items: [
+						{ label: 'Intro', slug: 'resources/intro'},
+						{ label: 'Humans First AI', slug: 'resources/humans-first'},
+					],
 				},
 			],
 		}),
