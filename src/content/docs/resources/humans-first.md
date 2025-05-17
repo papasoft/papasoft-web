@@ -126,3 +126,5 @@ description: A "Humans First" Approach to AI
 ---
 
 *Lots more...ask an AI to expand on this!*
+
+[slides](https://docs.google.com/presentation/d/1BhCwgJccYPt2aPiI5zyxQHvndPMG5jJBp8qBtK2YCQw/edit?usp=sharing)
